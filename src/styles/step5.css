@@ -1,0 +1,9 @@
+.thanking{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    gap:5rem;
+}

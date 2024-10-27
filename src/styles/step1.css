@@ -1,0 +1,50 @@
+
+.section__header{
+    margin-bottom: 5rem;
+}
+
+.section__header h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.section__header p{
+    color: var(--secondary-cool);
+}
+
+.personal-info__form{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+
+.personal-info__form__input-box{
+    display: flex;
+    gap:.5rem;
+    flex-direction: column;
+}
+
+.personal-info__form__input-box label{
+    color:var(--primary-marine);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.personal-info__form__input-box input{
+    padding: .8rem 1rem;
+    outline:none;
+    font-weight: 600;
+    color: var(--primary-marine) ;
+    border:1px solid var(--secondary-cool);
+    border-radius: .8rem;
+    font-size: 1.6rem;
+}
+.personal-info__form__input-box input:focus{
+
+    border-color: var(--primary-purplish);
+
+}
+
+.personal-info__form__input-box input:invalid{
+    border-color:red;
+}

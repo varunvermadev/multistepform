@@ -1,0 +1,59 @@
+
+
+.addons-info__form{
+
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    
+}
+
+.addons-info__form__input-box{
+    border:1px solid var(--primary-marine);
+    padding:2rem;
+    align-items: center;
+    border-radius: 1rem;
+    display: flex;
+    gap:3rem;
+    
+}
+
+.addons-info__form__input-box label{
+    cursor: pointer;
+    margin-right: auto;
+}
+.addons-info__form__input-box label h3{
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.addons-info__form__input-box label p{
+    color:var(--secondary-cool);
+}
+
+.addon-price{
+
+    color:var(--primary-purplish);
+
+}
+.addons-info__form__input-box input{
+    appearance: none;
+    width:2.5rem;
+    height:2.5rem;
+    border:1px solid var(--secondary-cool);
+    border-radius: 2px;
+}
+
+
+.addons-info__form__input-box input:checked{
+    background: var(--primary-purplish) url('../assets/images/icon-checkmark.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border-color: transparent;
+}
+
+.addons-info__form__input-box:has( input:checked){
+    background:var(--secondary-magnolia);
+    border-color: var(--primary-purplish);
+}

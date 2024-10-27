@@ -1,0 +1,29 @@
+
+
+.finishing-info__details{
+    display: flex;
+    flex-direction: column;
+}
+
+.finishing-info__details__items{
+    background-color: var(--secondary-alabaster);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color:var(--secondary-cool);
+    padding: 2rem ;
+}
+.finishing-info__details__items:last-child{
+    background:none;
+    margin-top: 5rem;
+}
+
+.value{
+    font-weight: 600;
+    color:var(--primary-purplish);
+}
+
+.items-price{
+    font-weight: 400;
+    font-size: 2rem;
+}
